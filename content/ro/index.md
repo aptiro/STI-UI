@@ -4,6 +4,7 @@
 - [TRIMITE UN MESAJ](#send-a-message){: data-scroll="true" }
 - [INFORMAȚII](#info){: data-scroll="true" }
 - [ÎNTREBĂRI FRECVENTE](faq)
+- [AMBASADORI](https://neutralitate.apti.ro/ambasadori/)
 {{ END NAVIGATION }}
 
 # Salvează Internetul
