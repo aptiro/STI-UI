@@ -102,22 +102,22 @@ $(function clickToActivate() {
 function registerAndSetupCounter() {
 
   var deadline = new Date('2016-07-18T13:00Z');
-  
+
   var count_fftf = 5720;
   var count_acs = 1100;
-  
+
   var addCount = count_fftf + count_acs;
 
   var $counter      = $('.counter').find('table').first();
   var $sentMessages = $counter.find('tr:nth-child(1)').find('td:nth-child(1)');
   var $daysLeft     = $counter.find('tr:nth-child(1)').find('td:nth-child(3)');
 
-  $.get('/counter/count.json', function(counter) {
+  $.get('https://savetheinternet.eu/counter/count.json', function(counter) {
     $sentMessages.html((counter.count + addCount).toLocaleString());
     $daysLeft.html(daysUntil(deadline));
     $counter.css('visibility', 'visible').hide().fadeIn('slow');
   }).fail(function() {
-    console.log('Error: "/counter/count.json" could not be loaded');
+    console.log('Error: "https://savetheinternet.eu/counter/count.json" could not be loaded');
     $sentMessages.html(300);
     $daysLeft.html(daysUntil(deadline));
     $counter.css('visibility', 'visible').hide().fadeIn('slow');
