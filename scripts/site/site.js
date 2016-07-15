@@ -112,6 +112,12 @@ function registerAndSetupCounter() {
   var $sentMessages = $counter.find('tr:nth-child(1)').find('td:nth-child(1)');
   var $daysLeft     = $counter.find('tr:nth-child(1)').find('td:nth-child(3)');
 
+  $sentMessages.html('');
+  var $sentMessages = $counter.find('tr:nth-child(1)').find('td:nth-child(2)').html('');
+  $daysLeft.html(daysUntil(deadline));
+  $counter.css('visibility', 'visible').hide().fadeIn('slow');
+  return;
+
   $.get('/counter/count.json', function(counter) {
     $sentMessages.html((counter.count + addCount).toLocaleString());
     $daysLeft.html(daysUntil(deadline));
