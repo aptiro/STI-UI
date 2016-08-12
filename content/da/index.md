@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [SEND EN MAIL](#send-a-message){: data-scroll="true" }
 - [INFORMATION](#info){: data-scroll="true" }
 - [OSS](faq)
 {{ END NAVIGATION }}
@@ -10,16 +23,14 @@
 
 {: .title-subtext}
 I sommer skal de europæiske tilsynsmyndigheder beslutte om store teleselskaber skal have magt til at påvirke hvad vi kan (og ikke kan) på nettet. Europa har hårdt brug for klare retningslinjer for netneutralitet som beskytter vores rettigheder og frie brug af internettet.
-<br><br>
-Hjælp os — bliv aktiv, og gør noget nu!
 
 {{ BEGIN COUNTER }}
 
-| X | E-MAILS <br> SENDT | Y | DAGE <br> TILBAGE |
+| X | E-MAILS <br> SENDT |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[VÆR MED](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -59,24 +70,9 @@ Det lyder som om du får noget gratis, men det gør dit mobilselskab til din dø
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Fortæl de nationale tilsynsmyndigheder i dit land og BEREC at de skal passe på netneutraliteten
-
-Sig din mening om de nye netneutralitetsregler til tilsynsmyndighederne ved hjælp af spørgeskemaet nedenfor. Hvis du besvarer ét eller flere af multiple choice-spørgsmålene eller de åbne spørgsmål, bliver der oprettet en e-mail for dig. Din e-mail bliver sendt til EU's teletilsynsmyndigheder (BEREC) af os.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Del på Facebook](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Del på Facebook](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/da/)
 
 [Del på Twitter](https://twitter.com/intent/tweet?text=Help%20save%20the%20internet.%20Tell%20your%20regulator%20to%20safeguard%20net%20neutrality.%20http%3A%2F%2Fwww.savetheinternet.eu%2F%20%23SaveTheInternet)
 
@@ -106,7 +102,7 @@ BEREC planlægger at offentliggøre sit udkast til retningslinjer og gennemføre
 
 {{ BEGIN HOME BEREC-3 }}
 ## Køreplanen for netneutralitet i EU
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
@@ -115,10 +111,6 @@ BEREC planlægger at offentliggøre sit udkast til retningslinjer og gennemføre
 Tilsynsmyndighederne behøver de rigtige værktøjer for at kunne sikre netneutraliteten. Hos Save The Internet tror vi ikke at BEREC får tid nok til at behandle og tage tilstrækkeligt hensyn til måske titusindvis af høringssvar (de amerikanske teletilsynsmyndigheder modtog 3,7 millioner svar på deres høring!). Vi kan råde bod på dette ved at sørge for at folk kan bidrage ordentligt til retningslinjerne på en mere effektiv måde.
 
 {{ END HOME BEREC-4 }}
-
-{{ BEGIN HOME BEREC-5 }}
-## BEREC har [brug for dit bidrag](#send-a-message){: data-scroll="true"} før de afgør netneutralitetens fremtid i Europa.
-{{ END HOME BEREC-5 }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Kontakt os

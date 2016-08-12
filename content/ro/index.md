@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [TRIMITE UN MESAJ](#send-a-message){: data-scroll="true" }
 - [INFORMAȚII](#info){: data-scroll="true" }
 - [ÎNTREBĂRI FRECVENTE](faq)
 - [AMBASADORI](https://neutralitate.apti.ro/ambasadori/)
@@ -11,16 +24,14 @@
 
 {: .title-subtext}
 Autoritățile europene de reglementare în telecomunicații sunt pe cale de a decide dacă vor acorda marilor corporații de telecomunicații puterea de a influența ce putem (și ce nu putem) face online. Europa are nevoie urgentă de un set clar de principii de implementare a neutralității Internetului pentru a proteja libertățile și drepturile noastre digitale.
-<br><br>
-Vino alături de noi, treci la acțiune!
 
 {{ BEGIN COUNTER }}
 
-| X | MESAJE TRIMISE | Y | <br> ZILE RĂMASE |
+| X | MESAJE TRIMISE |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[ACȚIONEAZĂ](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -60,24 +71,9 @@ Pare că primești ceva gratis, dar îți transformă operatorul de telefonie mo
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Spune ANCOM și BEREC să apere neutralitatea Internetului
-
-Spune ANCOM (Autoritatea Națională pentru Administrare și Reglementare în Comuncații) opinia ta privind noile reguli pentru neutralitatea Internetului folosind chestionarul de mai jos. Răspunzând la oricâte dintre întrebările din secțiunile de întrebări grilă și de întrebări cu răspuns deschis, va fi generat un email pentru tine. Email-ul tău va fi trimis de noi către autoritatea de reglementare în telecomunicații din UE (BEREC) atunci când va fi lansată consultarea oficială, în Iunie 2016.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Chestionarul Avansat](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[pe Facebook](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[pe Facebook](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/ro/)
 
 [pe Twitter](https://twitter.com/intent/tweet?text=Help%20save%20the%20internet.%20Tell%20your%20regulator%20to%20safeguard%20net%20neutrality.%20http%3A%2F%2Fwww.savetheinternet.eu%2F%20%23SaveTheInternet)
 
@@ -107,7 +103,7 @@ Comitetul autorităților de reglementare a comunicațiilor electronice din Euro
 
 {{ BEGIN HOME BEREC-3 }}
 ## Harta Neutralității Internetului în UE
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
@@ -116,10 +112,6 @@ Comitetul autorităților de reglementare a comunicațiilor electronice din Euro
 Autoritățile de reglementare trebuie să se înarmeze cu instrumentele necesare pentru aplicarea neutralității Internetului. Considerăm ca BEREC nu va avea suficient timp să proceseze și să ia în considerare în mod atent potențialele zeci de mii de răspunsuri (autoritatea de reglementare din Statele Unite a primit 3.7 milioane de răspunsuri la consultarea lor!). Putem îndrepta balanța facilitând contribuția cât mai eficientă la consultare pentru cât mai multe persoane.
 
 {{ END HOME BEREC-4 }}
-
-{{ BEGIN HOME BEREC-5 }}
-## BEREC [are nevoie de răspunsurile tale](#send-a-message){: data-scroll="true"} înainte să decidă viitorul neutralității în Europa.
-{{ END HOME BEREC-5 }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Contactează-ne

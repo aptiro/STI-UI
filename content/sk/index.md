@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [ODOSLAŤ SPRÁVU](#send-a-message){: data-scroll="true" }
 - [INFORMÁCIE](#info){: data-scroll="true" }
 - [ČASTO KLADENÉ OTÁZKY](faq)
 {{ END NAVIGATION }}
@@ -11,16 +24,14 @@
 {: .title-subtext}
 Európske regulačné orgány sa chystajú rozhodnúť, či dajú veľkým telekomunikačným korporáciám moc ovplyvňovať to, čo môžeme (a nemôžeme) robiť online. Európa naliehavo potrebuje jasné pravidlá v súvislosti s neutralitou siete
 na ochranu našich online práv a slobôd.
-<br><br>
-Pripojiť sa k nášmu hnutiu, konajte teraz!
 
 {{ BEGIN COUNTER }}
 
-| X | ĽUDÍ <br> POSLALO SPRÁVY | Y | DNÍ <br> ZOSTÁVA |
+| X | ĽUDÍ <br> POSLALO SPRÁVY |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[Prijať Opatrenia](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -60,24 +71,9 @@ Znie to, ako by ste dostali niečo zadarmo, no Váš mobilný operátor sa vďak
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Povedzte Vašim národným regulačným orgánom a BEREC, že chcete chrániť neutralitu siete
-
-Povedzte Vašim národným regulačným orgánom Váš názor na nové pravidlá o neutralite siete prostredníctvom dotazníka nižšie. Po zodpovedaní ľubovoľného počtu otázok s možnosťou výberu a otvorených otázok Vám bude vygenerovaný e-mail. Váš e-mail odošleme telekomunikačným regulačným orgánom EÚ (BEREC).
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Zdieľať na Facebooku](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Zdieľať na Facebooku](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/sk/)
 
 [ Zdieľať na Twitteri](https://twitter.com/intent/tweet?text=Help%20save%20the%20internet.%20Tell%20your%20regulator%20to%20safeguard%20net%20neutrality.%20http%3A%2F%2Fwww.savetheinternet.eu%2F%20%23SaveTheInternet)
 
@@ -107,7 +103,7 @@ V júni 2016 plánuje BEREC zverejniť svoje návrhy usmernení a spustí verejn
 
 {{ BEGIN HOME BEREC-3 }}
 ## Plán neutrality siete EÚ
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
@@ -117,16 +113,12 @@ Regulačné orgány by sa mali vybaviť nástrojmi, ktorými dokážu presadiť 
 
 {{ END HOME BEREC-4 }}
 
-{{ BEGIN HOME BEREC-5 }}
-## BEREC [potrebuje poznať Váš názor](#poslať správu){: data-scroll="true"} skôr, než sa rozhodne o budúcnosti neutrality siete v Európe.
-{{ END HOME BEREC-5 }}
-
 {{ BEGIN HOME CONTACT-US }}
 ### Kontaktujte nás
 
 __Neváhajte nás kontaktovať na [info@savetheinternet.eu](mailto:info@savetheinternet.eu)__
 
-Máte nápad, ako by sme mohli zlepšiť túto webovú stránku? To je skvelé, potrebujeme Vás! Úplný zdrojový kód tejto webovej stránky je k dispozícii na  [GitHub](https://github.com/Netzfreiheit/STI-UI) a môže byť rozvetvený, zlepšený, remixovaný a vrátený späť k nám.
+Máte nápad, ako by sme mohli zlepšiť túto webovú stránku? To je skvelé, potrebujeme Vás! Úplný zdrojový kód tejto webovej stránky je k dispozícii na [GitHub](https://github.com/Netzfreiheit/STI-UI) a môže byť rozvetvený, zlepšený, remixovaný a vrátený späť k nám.
 
 Jedna vec, ktorú vždy potrebujeme je pomoc s prekladmi. Ak hovoríte niektorým jazykom, ktorý sme zatiaľ nepokryli, prosíme Vás, aby nás kontaktovali.
 
@@ -134,7 +126,7 @@ Jedna vec, ktorú vždy potrebujeme je pomoc s prekladmi. Ak hovoríte niektorý
 
 Vaše pripomienky ku konzultácii BEREC budú uložené v doručených správach e-mailovej adresy hostenej v Rakúsku, kým tieto e-maily s Vašimi pripomienkami neodošleme na oficiálnu konzultáciu BEREC. Zásady ochrany osobných údajov BEREC môžete nájsť [tu](http://berec.europa.eu/eng/document_register/subject_matter/berec_office/download/0/4615-privacy-statement-berec-office-policy-do_0.pdf). Arbeitskreis Vorratsdaten Österreich a Bits of Freedom majú prístup k, spracujú a budú uchovávať pripomienky a e-mailové adresy zaslané BEREC prostredníctvom tejto webovej stránky pre technické účely. BEREC bude zverejňovať všetky odpovede, ktoré nie sú označené ako dôverné. Organizácia za touto kampaňou je uvedená v spodnej časti týchto webových stránok. Jeden mesiac po období oficiálnych konzultácií vymažeme všetky pripomienky a emailové adresy súvisiace s týmito pripomienkami.
 
-Zhromažďujeme neosobné informácie o tejto webovej stránke prostredníctvom [Piwik](https://piwik.org/),  softvéru na analýzu webových stránok zohľadňujúceho zásady ochrany osobných údajov.
+Zhromažďujeme neosobné informácie o tejto webovej stránke prostredníctvom [Piwik](https://piwik.org/), softvéru na analýzu webových stránok zohľadňujúceho zásady ochrany osobných údajov.
 
  Ak sa [prihlásite k odberu noviniek](#subscribe-to-newsletter){: data-scroll="true"} , Vaša e-mailová adresa bude uložená v zozname adresátov a databáze, ktoré spravuje a hostí European Digital Rights. Jediná táto organizácia bude mať právo posielať Vám správy, ak sa zaregistrujete na odber noviniek. Z odoberania noviniek sa môžete kedykoľvek odhlásiť a nebudete viac dostávať žiadne ďalšie správy.
  {{ END HOME CONTACT-US }}

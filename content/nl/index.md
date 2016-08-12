@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [BERICHT VERSTUREN](#send-a-message){: data-scroll="true" }
 - [INFORMATIE](#info){: data-scroll="true" }
 - [VEELGESTELDE VRAGEN](faq)
 {{ END NAVIGATION }}
@@ -10,16 +23,14 @@
 
 {: .title-subtext}
 Europese regelgevende instanties staan op het punt om te beslissen of ze grote telecombedrijven de macht zullen geven om invloed uit te oefenen op wat we online kunnen doen (en niet kunnen doen). Europa heeft dringend duidelijke richtsnoeren voor netneutraliteit nodig om onze vrijheden en rechten online te beschermen.
-<br><br>
-Doe mee, neem nu actie!
 
 {{ BEGIN COUNTER }}
 
-| X | MENSEN HEBBEN <br> BERICHTEN VERZONDEN | Y | DAGEN <br> RESTEREND |
+| X | MENSEN HEBBEN <br> BERICHTEN VERZONDEN |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[ACTIE ONDERNEMEN](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -59,24 +70,9 @@ Het lijkt of u iets gratis krijgt, maar uw mobiele operator wordt hierdoor een p
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Vraag uw nationale regelgevende instanties en BEREC om netneutraliteit te beschermen
-
-Vertel uw regelgevende instanties met behulp van de onderstaande vragenlijsttool wat u vindt van de nieuwe regels voor netneutraliteit. Als u een aantal meerkeuze- en open vragen beantwoordt, wordt een e-mail voor u gegenereerd. Uw e-mail wordt door ons naar het Orgaan van de Europese regelgevende instanties voor elektronische communicatie (BEREC) verzonden wanneer de officiële raadpleging in juni 2016 van start gaat.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Delen op Facebook](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Delen op Facebook](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/nl/)
 
 [Delen op Twitter](https://twitter.com/intent/tweet?text=Help%20save%20the%20internet.%20Tell%20your%20regulator%20to%20safeguard%20net%20neutrality.%20http%3A%2F%2Fwww.savetheinternet.eu%2F%20%23SaveTheInternet)
 
@@ -106,7 +102,7 @@ BEREC is van plan om in juni 2016 zijn ontwerprichtsnoeren te publiceren en een 
 
 {{ BEGIN HOME BEREC-3 }}
 ## Routekaart voor netneutraliteit in de EU
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
@@ -115,10 +111,6 @@ BEREC is van plan om in juni 2016 zijn ontwerprichtsnoeren te publiceren en een 
 Regelgevende instanties moeten zorgen dat ze beschikken over de middelen waarmee ze netneutraliteit kunnen afdwingen. De ngo's achter Save The Internet denken dat BEREC niet genoeg tijd zal hebben om potentieel tienduizenden reacties te verwerken en goed in te calculeren (de Amerikaanse telecomregulator ontving 3,7 miljoen reacties op zijn raadpleging!). We kunnen het evenwicht herstellen door te zorgen dat iedereen op een efficiëntere manier een bijdrage aan de richtsnoeren kan leveren.
 
 {{ END HOME BEREC-4 }}
-
-{{ BEGIN HOME BEREC-5 }}
-## BEREC [heeft uw input nodig](#send-a-message){: data-scroll="true"} voordat het een beslissing neemt over de toekomst van netneutraliteit in Europa.
-{{ END HOME BEREC-5 }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Neem contact met ons op
@@ -132,7 +124,7 @@ Wat we altijd nodig hebben, is hulp met vertalen. Dus als u een taal spreekt die
 ### Privacybeleid
 
 Wij bewaren uw commentaar voor de BEREC-consultatie in de inbox van een in Oostenrijk gehost emailadres totdat wij de emails met uw commentaar naar de officiële BEREC-consultatie sturen.
-[Hier](http://berec.europa.eu/eng/document_register/subject_matter/berec_office/download/0/4615-privacy-statement-berec-office-policy-do_0.pdf) vindt u het privacybeleid van BEREC voor consultaties. Voor technische redenen hebben Arbeitskreis Vorratsdaten Östterreich en Bits of Freedom toegang tot het naar BEREC verstuurde commentaar en de emailadressen via deze website, en zullen zij deze gegevens verwerken en opslaan.  BEREC zal alle commentaren publiceren die niet als vertrouwelijk zijn aangegeven. De organisaties achter deze campagne worden onderaan deze website opgesomd. Eén maand na het einde van de officiële consultatieperiode zullen wij alle commentaren en daaraan verwante emailadressen verwijderen.
+[Hier](http://berec.europa.eu/eng/document_register/subject_matter/berec_office/download/0/4615-privacy-statement-berec-office-policy-do_0.pdf) vindt u het privacybeleid van BEREC voor consultaties. Voor technische redenen hebben Arbeitskreis Vorratsdaten Östterreich en Bits of Freedom toegang tot het naar BEREC verstuurde commentaar en de emailadressen via deze website, en zullen zij deze gegevens verwerken en opslaan. BEREC zal alle commentaren publiceren die niet als vertrouwelijk zijn aangegeven. De organisaties achter deze campagne worden onderaan deze website opgesomd. Eén maand na het einde van de officiële consultatieperiode zullen wij alle commentaren en daaraan verwante emailadressen verwijderen.
 
 Op deze website verzamelen wij gegevens niet zijnde persoonsgegevens met [Piwik](https://piwik.org/), een privacyvriendelijk web analytics programma.
 

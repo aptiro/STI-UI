@@ -1,25 +1,37 @@
+{{ BEGIN MODAL }}
+### Над 500,000 човека изпратиха ясно съобщение: *Ние искаме свободен и отворен интернет!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Запазването на интернет свободен и отворен определено е от значение. Към края на публичните дискусии относно принципа, по който ще се приложат [Европейските правила за мрежова неутралност](https://edri.org/time-to-save-the-internet/), повече от половин милион коментара бяха изпратени в следствие на кампанията!
+
+Ние изпратихме вашите коментари до Органът на Европейските Регулатори в областта на Електронните Съобщения (ОЕРЕС). ОЕРЕС ще [оформи правилата](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) и ще публикува окончателната им версия на 30 Август 2016.
+
+Подкрепата за свободен и открит интернет беше толкова силна, че ОЕРЕС не би могъл да я игнорира. Съобщението е ясно и се надяваме това да отстрани слабостите в текстовете за [нулева тарифа](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [специализирани услуги](https://edri.org/specialised-services-make-break-issue-open-internet/) и [управление на трафика](https://edri.org/traffic-management-where-risks-online-discrimination/) в окончателната им версия. Обединени, ние показахме на законодателите, че европейското общество няма да остави бъдещето на публичното дигиталното пространство в ръцете на корпоративни лобисти, напротив ще реши само за себе си.
+
+**SaveTheInternet.eu желае да благодари на всички, които взеха участие в това изключително начинание за защита на свободният и отворен интернет! Ние показахме на законодателите, че бъдещето на публичното дигиталното пространство трябва да бъде определено от нас а не от компаниите! Благодарим ви!**
+
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [SEND MESSAGE](#send-a-message){: data-scroll="true" }
 - [INFORMATION](#info){: data-scroll="true" }
 - [FAQ](faq)
 {{ END NAVIGATION }}
 
-# Save the Internet
+# Спаси Интернет
 
 {: .title-subtext}
-Да могат ли големите телекомуникационни компании да предопределят каво четем (или не) в интернет? Европейските регулатори на електронни съобщения скоро ще създадат правила за мрежова неутралност. В Европа имаме спешна нужда от ясни и приложими принципи, които да защитят отворения и свободен интернет.
-<br><br>
-Присъединете се към нашето движение!
+Да могат ли големите телекомуникационни компании да предопределят какво четем (или не) в интернет? Европейските регулатори на електронни съобщения скоро ще създадат правила за мрежова неутралност. В Европа имаме спешна нужда от ясни и приложими принципи, които да защитят отворения и свободен интернет.
 
 {{ BEGIN COUNTER }}
 
-| X | БРОЙ ГРАЖДАНИ <br> ИЗПРАТИЛИ СЪОБЩЕНИЕ | Y | ОСТАВАЩИ <br> ДНИ |
+| X | БРОЙ ГРАЖДАНИ <br> ИЗПРАТИЛИ СЪОБЩЕНИЕ |
+
+коментари изпратени чрез savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) и [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[ПОДКРЕПЯМ](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -51,7 +63,7 @@
 
 ### Нулева тарифа
 
-Звучи все едно получавате нещо безплатно, но това превръща мобилния ви оператор в пъдар и му дава основания за по-ниски месечни лимити на данните.
+Звучи все едно получавате нещо безплатно, но това превръща мобилния ви оператор в разпоредител и му дава основания за по-ниски месечни лимити на данните.
 
 [ПРОЧЕТЕТЕ ПОВЕЧЕ](faq/#what-is-zero-rating)
 
@@ -59,24 +71,9 @@
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Кажете на Комисията за регулиране на съобщенията и на европейската служба ОЕРЕС да защитят мрежовата неутралност
-
-Кажете на регулаторите какво мислите за мрежовата неутралност, използвайки въпросника по-долу. След като отговорите на някои или всички въпроси системата ще генерира съобщение за вас. Това съобщение представлява вашите отговори в обществената консултация и ще бъде внесено от нас в Службата на Органа на европейските регулатори в областта на електронните съобщения (ОЕРЕС) в началото на м. юни 2016 г., когато официално започва консултацията.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Сподели във Фейсбук](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Сподели във Фейсбук](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/bg/)
 
 [Сподели в Туитър](https://twitter.com/intent/tweet?text=What%0Aif%0Athey%0Amade%0AEurope%27s%0Ainternet%0Aso%0Aslow%2C%0Aevery%0Atweet%0Aloaded%0Aslowly%0Alike%0Athis%3F%0ADon%27t%20let%20them%3A%0Ahttps%3A%2F%2Fwww.savetheinternet.eu%2F)
 
@@ -90,37 +87,43 @@ __[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: 
 
 {{ BEGIN HOME INFO }}
 {{ ANCHOR INFO }}
-## In 2015, the European Union adopted  legislation on net neutrality ...
+## През 2015 Европейският съюз прие законова рамка за интернет неутралност...
 
-[Европейската регулация](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015R2120){: target="_blank" } съдържа добри принципи, които да осигурят, че можете да се свържете с произволна точка в интернет без да сте обект на дискриминация. Въпреки това, с някои части от Регулацията може да бъде злоупотребено, за да бъде подкопана мрежовата неутралност. Законодателите решиха да оставят отговорността да изясняването на неяснотите в текста от страна на телекомуникационните регулатори.
+[Европейската регулация](http://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32015R2120){: target="_blank" } съдържа добри принципи, позволяващи свързването с произволна точка в интернет без да сте обект на дискриминация. Въпреки това, с някои части от Регулацията може да бъде злоупотребено, за да бъде подкопана мрежовата неутралност. Законодателите решиха да оставят отговорността за изясняването на неяснотите в текста на телекомуникационните регулатори.
 {{ END HOME INFO }}
 
 
 {{ BEGIN HOME BEREC-1 }}
-До края на м. август 2016 г. Органът на европейските регулатори в областта на електронните съобщения (ОЕРЕС)  трябва да подготви правилник за приложението, които да тълкуват неяснотите в закона. Този правилник ще определи дали Европа ще се радва на мрежова неутралност, или не.
+До края на м. август 2016 г. Органът на европейските регулатори в областта на електронните съобщения (ОЕРЕС)  трябва да подготви правила за приложението, които да тълкуват неяснотите в закона. Тези правила ще определят дали Европа ще се радва на мрежова неутралност, или не.
 {{ END HOME BEREC-1 }}
 
 {{ BEGIN HOME BEREC-2 }}
-През м. юни 2016 г., ОЕРЕС планира да публикува проекта за правилник и да инициира обществено обсъждане. Въпреки това, по процедурните правила на Органа, обществеността има време само от 6 юни до 18 юли да реагира, а Регулацията твърди, че ОЕРЕС трябва да публикува финалната версия на правилника си на 30 август 2016 г. Това означава, че гражданите ще имат само __няколко седмици__ да вземат отношение в обсъждането и ОЕРЕС има едва __малко повече от месец__, за да обработи (потенциално хилядите) коментари и актуализации на проекта си, и след това да премине през всички административни процедури, за да одобри формално всякакви промени, които могат да бъдат включени в проектоправилника.
+През м. юни 2016 г., ОЕРЕС планира да публикува чернова на правилата и да инициира обществено обсъждане. Обаче процедурнте правила на ОЕРЕС гласят, че обществото разполага с време за отговор между 6-ти юни и 18-ти юли а Регулацията гласи, че ОЕРЕС трябва да публикува финалните правила на 30 Август 2016. Това означава, че гражданите ще имат само __няколко седмици__ да вземат отношение в обсъждането и ОЕРЕС има едва __месец и малко__, за да обработи (потенциално хилядите) коментари и актуализации на проекта си, и след това да премине през всички административни процедури, за да одобри формално всякакви промени, които могат да бъдат включени в проектоправилника.
 {{ END HOME BEREC-2 }}
 
 {{ BEGIN HOME BEREC-3 }}
 ## Пътна карта на мрежовата неутралност в ЕС
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
 ### __Това е критично важен момент: Това е моментът, в който в САЩ и Индия бяха постигнати големи успехи. Това означава, че ние трябва да продължим да упражняваме натиск в името на мрежовата неутралност, като убеждаваме регулаторите за това колко е важен свободният и отворен интернет.__
 
-Регулаторите трябва да се снабдят с инструменти за прилагането на мрежовата неутралност. Ние от инициативата Save The Internet смятаме, че ОЕРЕС няма достатъчно време, за да обработи и надлежно да отчете потенциално десетки хилядите отговори (за сравнение, щатският телекомуникационен регулатор получи 3.7 милиона отговора в рамките на своето обществено обсъждане!). Можем да променим баланса на силите, като дадем възможност на всекиго да допринесе към правилата по един по-ефективен начин.
+Регулаторите трябва да се снабдят с инструменти за прилагането на мрежовата неутралност. Ние от инициативата _Спаси интернет_ смятаме, че ОЕРЕС няма достатъчно време, за да обработи и надлежно да отчете потенциално десетки хилядите отговори (за сравнение, щатският телекомуникационен регулатор получи 3.7 милиона отговора в рамките на своето обществено обсъждане!). Можем да променим баланса на силите, като дадем възможност на всекиго да допринесе към правилата по един по-ефективен начин.
 
 {{ END HOME BEREC-4 }}
 
-{{ BEGIN HOME BEREC-5 }}
-## ОЕРЕС [има нужда да чуе твоя глас](#send-a-message){: data-scroll="true"} преди да вземе решение за бъдещето на мрежовата неутралност в Европа.
-{{ END HOME BEREC-5 }}
+{{ BEGIN HOME COALITION }}
+### Заедно ние поддържаме правила за силна Мрежова Независимост.
+
+Тези основатели и инвеститори се подписаха на [писмото за мрежова независимост](http://www.factory.co/net-neutrality) в Европа, изисквайки от ОЕРЕС строги, прозрачни правила, изключващи вратички за заобикалянето им.
+
+<script type="text/javascript" id="fftf_logo_cloud" integrity="sha384-rY9HgqO1qTdzfKDplrb4HEG65jVrF8JT8iG4Gv7wAjynddlhdn64sKxjO71/oqmH" crossorigin="anonymous" src="https://www.savenetneutrality.eu/js/logos.js"></script>
+
+{{ END HOME COALITION }}
 
 {{ BEGIN HOME CONTACT-US }}
+
 ### Свържи се с нас
 
 __Заповядай да се свържеш с нас на адрес [info@savetheinternet.eu](mailto:info@savetheinternet.eu)__
@@ -131,11 +134,11 @@ __Заповядай да се свържеш с нас на адрес [info@sa
 
 ### Политика по защита на личните данни
 
-We store your comments to the BEREC consultation in the inbox of an e-mail address hosted in Austria until we forward these e-mails with your comments to the official BEREC consultation. You can find the Privacy Policy of BEREC for consultations [here](http://berec.europa.eu/eng/document_register/subject_matter/berec_office/download/0/4615-privacy-statement-berec-office-policy-do_0.pdf). Arbeitskreis Vorratsdaten Österreich and Bits of Freedom have access to, process and will retain the comments and e-mail addresses sent to BEREC through this website for technical purposes. BEREC will publish all responses that are not marked as confidential. The organisations behind this campaign are listed on the bottom of this website. One month after the official consultation period has ended we will delete all comments and email addresses associated with those comments.
+Ние пазим вашите коментари свързани с ОЕРЕС дискусията в електронна поща намираща се на сървър в Австрия, до момента в които вашите коментари не бъдат препратени до представителите на ОЕРЕС. Повече информация за Защита на личните данни от страна на ОЕРЕС можете да намерите [тук](http://berec.europa.eu/eng/document_register/subject_matter/berec_office/download/0/4615-privacy-statement-berec-office-policy-do_0.pdf). Arbeitskreis Vorratsdaten, Австрия и Bits of Freedom имат достъп и ще задържат по технически причини коментарите и email адресите изпратени до ОЕРЕС през този уебсайт. ОЕРЕС ще публикува всички отговори, които не са обозначени като поверителни. Организациите зад тази кампания са изброени на дъното на сайта. Месец след края на официалният период за дискусия, всички коментари и email адреси свързани с тях ще бъдат изтрити.
 
-We collect non-personal information on this website with [Piwik](https://piwik.org/), a privacy friendly web analytics software.
+На този сайт се събира информация която не е лична посредствум [Piwik](https://piwik.org/), софтуер за уеб статистика незасягащ личните данни на потребителите.
 
-If you [subscribe to the newsletter](#subscribe-to-newsletter){: data-scroll="true"} your email address will be stored in a mailing list and database which is administrated and hosted by European Digital Rights. They are the only organisation which has the right to send you messages if you sign up to the newsletter. You can unsubscribe from that newsletter at any time and will receive no further messages. 
+Ако се [запишете за нашите информационни бюлетини](#subscribe-to-newsletter){: data-scroll="true"}, вашият email адрес ще се съхранява в списък с други email адреси в база данни администрирана и поддържана от European Digital Rights. Те са единствената организация имаща право да се свърже с вас ако сте избрали да получавате бюлетини. Може да се отпишете по всяко време от тази услуга и няма да получавате съобщение за вбъдеще.
 {{ END HOME CONTACT-US }}
 
 {{ BEGIN HOME SUPPORTED-BY }}

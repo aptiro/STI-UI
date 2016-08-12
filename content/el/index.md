@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [ΑΠΟΣΤΟΛΗ ΜΗΝΥΜΑΤΟΣ](#send-a-message){: data-scroll="true" }
 - [ΠΛΗΡΟΦΟΡΙΕΣ](#info){: data-scroll="true" }
 - [FAQ](faq)
 
@@ -11,16 +24,14 @@
 
 {: .title-subtext}
 Οι ευρωπαϊκές Ρυθμιστικές Αρχές πρόκειται να αποφασίσουν αν θα δώσουν στους μεγάλους τηλεπικοινωνιακούς παρόχους τη δύναμη να επηρεάζουν το τι μπορούμε και τι δεν μπορούμε να κάνουμε online. Η Ευρώπη χρειάζεται επειγόντως σαφείς κανόνες για την ουδετερότητα των δικτύων για την προστασία των online ελευθεριών και δικαιωμάτων μας.
-<br><br>
-Συμμετάσχετε στην κίνηση, δράστε τώρα!
 
 {{ BEGIN COUNTER }}
 
-| X | ΑΤΟΜΑ ΕΧΟΥΝ <br> ΣΤΕΙΛΕΙ ΜΗΝΥΜΑΤΑ | Y | ΗΜΕΡΕΣ <br> ΑΠΟΜΕΝΟΥΝ |
+| X | ΑΤΟΜΑ ΕΧΟΥΝ <br> ΣΤΕΙΛΕΙ ΜΗΝΥΜΑΤΑ |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[ΑΠΟΣΤΟΛΗ ΜΗΝΥΜΑΤΟΣ](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -60,24 +71,9 @@
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Ζητήστε από τις εθνικές ρυθμιστικές αρχές σας και τον BEREC να προστατεύσουν την ουδετερότητα των δικτύων
-
-Πείτε στις ρυθμιστικές σας αρχές τη γνώμη σας για τους νέους κανόνες ουδετερότητας των δικτύων χρησιμοποιώντας το εργαλείο ερωτηματολογίου παρακάτω. Αν απαντήσετε σε οποιονδήποτε αριθμό ερωτήσεων στα τμήματα πολλαπλής επιλογής και ανοικτών ερωτήσεων, θα δημιουργηθεί για σας ένα μήνυμα ηλεκτρονικού ταχυδρομείου. Το μήνυμα ηλεκτρονικού ταχυδρομείου σας θα υποβληθεί από εμάς στον Φορέα των Ευρωπαϊκών Ρυθμιστικών αρχών για τις Ηλεκτρονικές Επικοινωνίες της ΕΕ (BEREC).
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Κοινοποιήστε στο Facebook](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Κοινοποιήστε στο Facebook](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/el/)
 
 [Κοινοποιήστε στο Twitter](https://twitter.com/intent/tweet?text=Help%20save%20the%20internet.%20Tell%20your%20regulator%20to%20safeguard%20net%20neutrality.%20http%3A%2F%2Fwww.savetheinternet.eu%2F%20%23SaveTheInternet)
 
@@ -107,7 +103,7 @@ __[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: 
 
 {{ BEGIN HOME BEREC-3 }}
 ## Χάρτης ουδετερότητας των δικτύων της ΕΕ
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
@@ -116,10 +112,6 @@ __[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: 
 Οι ρυθμιστικές αρχές πρέπει να εξοπλιστούν με τα εργαλεία που χρειάζονται για την επιβολή της ουδετερότητας των δικτύων. Στο Save The Internet, πιστεύουμε ότι ο BEREC δεν θα έχει αρκετό χρόνο για να επεξεργαστεί και να λάβει δεόντως υπόψη τις πιθανόν δεκάδες χιλιάδες απαντήσεις (η ρυθμιστική αρχή τηλεπικοινωνιών των ΗΠΑ έλαβε 3,7 εκατομμύρια απαντήσεις στη δική της διαβούλευση!). Μπορούμε να αποκαταστήσουμε την ισορροπία δίνοντας τη δυνατότητα στον οποιονδήποτε να συμβάλει στις κατευθυντήριες οδηγίες με πιο αποτελεσματικό τρόπο.
 
 {{ END HOME BEREC-4 }}
-
-{{ BEGIN HOME BEREC-5 }}
-## Ο ΒEREC [χρειάζεται τον σχολιασμό σας](#στείλτε μήνυμα){: data-scroll="true"} πριν αποφασίσει σχετικά με το μέλλον της ουδετερότητας των δικτύων στην Ευρώπη.
-{{ END HOME BEREC-5 }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Επικοινωνήστε μαζί μας
@@ -134,7 +126,7 @@ __Μη διστάσετε να επικοινωνήσετε μαζί μας στ
 
 Αποθηκεύουμε τα σχόλιά σας για τη διαβούλευση του BEREC στα Εισερχόμενα μιας διεύθυνσης ηλεκτρονικού ταχυδρομείου που φιλοξενείται στην Αυστρία, μέχρι να προωθήσουμε αυτά τα μηνύματα ηλεκτρονικού ταχυδρομείου με τα σχόλιά σας στην επίσημη διαβούλευση του BEREC. Μπορείτε να βρείτε την πολιτική προστασίας απορρήτου του BEREC για τις διαβουλεύσεις [εδώ](http://berec.europa.eu/eng/document_register/subject_matter/berec_office/download/0/4615-privacy-statement-berec-office-policy-do_0.pdf). Οι φορείς Arbeitskreis Vorratsdaten Österreich και Bits of Freedom έχουν πρόσβαση, επεξεργάζονται και θα διατηρήσουν τα σχόλια και τις διευθύνσεις ηλεκτρονικού ταχυδρομείου που αποστέλλονται στον BEREC μέσω αυτού του ιστοτόπου για τεχνικούς σκοπούς. Ο BEREC θα δημοσιεύσει όλες τις απαντήσεις που δεν είναι επισημασμένες ως εμπιστευτικές. Οι οργανισμοί που στηρίζουν αυτήν την εκστρατεία αναφέρονται στο κάτω μέρος της σελίδας σε αυτόν τον ιστότοπο. Έναν μήνα μετά το τέλος της επίσημης περιόδου διαβούλευσης, θα διαγράψουμε όλα τα σχόλια και τις ηλεκτρονικές διευθύνσεις που συσχετίζονται με αυτά.
 
-Σε αυτόν τον ιστότοπο  συλλέγουμε μη προσωπικά στοιχεία με το [Piwik](https://piwik.org/), ένα φιλικό προς το ιδιωτικό απόρρητο λογισμικό ανάλυσης δεδομένων Ιστού.
+Σε αυτόν τον ιστότοπο συλλέγουμε μη προσωπικά στοιχεία με το [Piwik](https://piwik.org/), ένα φιλικό προς το ιδιωτικό απόρρητο λογισμικό ανάλυσης δεδομένων Ιστού.
 
 Αν [εγγραφείτε συνδρομητές στο newsletter](#subscribe-to-newsletter){: data-scroll="true"} η διεύθυνση ηλεκτρονικού σας ταχυδρομείου θα αποθηκευτεί σε έναν κατάλογο παραληπτών και μια βάση δεδομένων, της οποίας η διαχείριση και η φιλοξενία γίνονται από τον φορέα European Digital Rights. Είναι ο μόνος οργανισμός που έχει το δικαίωμα να σας στέλνει μηνύματα αν εγγραφείτε για το newsletter. Μπορείτε να καταργήσετε τη συνδρομή σας στο newsletter οποιαδήποτε στιγμή και δεν θα λάβετε άλλα μηνύματα.
  {{ END HOME CONTACT-US }}

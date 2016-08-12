@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [LÄHETÄ VIESTI](#send-a-message){: data-scroll="true" }
 - [INFO](#info){: data-scroll="true" }
 - [UKK](faq)
 
@@ -11,16 +24,14 @@
 
 {: .title-subtext}
 Tänä kesänä päätetään Euroopassa internetin tulevaisuudesta. Suuret telealan konsernit haluavat päättää, mitä voimme tehdä verkossa ja mitä emme.
-<br><br>
-Osallistu auttamiseen, ole aktiivinen!
 
 {{ BEGIN COUNTER }}
 
-| X | ihmistä on <br> lähettänyt <br> viestin | Y | päivää on sinulla <br> vielä aikaa |
+| X | ihmistä on <br> lähettänyt <br> viestin |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[TOIMI NYT](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -60,24 +71,9 @@ Tämä näyttää ilmaiselta tarjoukselta, mutta todellisuudessa menetät valinn
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Vapaa internet on vaarassa!
-
-Mielipiteesi on tärkeää! Auta säilyttämään internetin vapaus Euroopassa ottamalla tässä osaa verkkoneutraliteetin uusien sääntöjen konsultointiin. Jokainen kommentti on tärkeä ja se ottaa ajastasi vain kaksi minuuttia ja saat äänesi kuuluville. Vastaa näihin muutamiin kysymyksiin ja laadi näin virallinen kommentti Euroopan sähköisen viestinnän sääntelyviranomaisten (BEREC) yhteistyöelimelle EU:ssa.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Laajempi kysely](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Jaa facebookissa](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Hilf%20mit%2C%20das%20Internet%20zu%20retten&p%5Bsummary%5D=Deine%20Freiheiten%20online%20werden%20durch%20eine%20EU-Verordnung%20bedroht.%20Der%20Kampf%20f%C3%BCr%20ein%20offenes%20Internet%20beginnt%20jetzt%20in%20Br%C3%BCssel.)
+[Jaa facebookissa](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/fi/)
 
 [ Jaa twitterissä](https://twitter.com/intent/tweet?text=Hilf%20mit%2C%20das%20Internet%20zu%20retten.%20Fordere%20deine%20Regulierer%20auf%2C%20Netzneutralit%C3%A4t%20zu%20sch%C3%BCtzen.%0Ahttps%3A%2F%2Fwww.savetheinternet.eu%2Fde%20%23SaveTheInternet%20pls%20RT)
 
@@ -102,24 +98,20 @@ Euroopan sähköisen viestinnän sääntelyviranomaisten yhteistyöelimen (lyhen
 {{ END HOME BEREC-1 }}
 
 {{ BEGIN HOME BEREC-2 }}
-BEREC on [6. kesäkuuta 2016 esittänyt luonnoksensa uudesta direktiivistä](https://netzpolitik.org/2016/eu-leitlinien-zur-netzneutralitaet-the-good-the-bad-and-the-ugly/){: target="_blank" } ja käynnistänyt julkisen konsultoinnin 18. päivään heinäkuuta saakka.  BEREC sääntelyviranomaisilla on tämän jälkeen 30. päivään elokuuta 2016 aikaa julkaista lopulliset sääntönsä. Joten kansalaisille jää __vain muutama viikko aikaa__ reagoida konsultointiin. BERECillä on nyt __vain vähän yli kuukausi__ aikaa käsitellä kommentit (mahdollisesti tuhansia), muokata luonnoksia ja suorittaa sitten hallinnolliset askeleet mahdollisten muutosten muodolliseen hyväksyntään.
+BEREC on [6. kesäkuuta 2016 esittänyt luonnoksensa uudesta direktiivistä](https://netzpolitik.org/2016/eu-leitlinien-zur-netzneutralitaet-the-good-the-bad-and-the-ugly/){: target="_blank" } ja käynnistänyt julkisen konsultoinnin 18. päivään heinäkuuta saakka. BEREC sääntelyviranomaisilla on tämän jälkeen 30. päivään elokuuta 2016 aikaa julkaista lopulliset sääntönsä. Joten kansalaisille jää __vain muutama viikko aikaa__ reagoida konsultointiin. BERECillä on nyt __vain vähän yli kuukausi__ aikaa käsitellä kommentit (mahdollisesti tuhansia), muokata luonnoksia ja suorittaa sitten hallinnolliset askeleet mahdollisten muutosten muodolliseen hyväksyntään.
 {{ END HOME BEREC-2 }}
 
 {{ BEGIN HOME BEREC-3 }}
 ## EU-verkkoneutraliteetin aikataulu
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
-### __Nyt on ratkaiseva hetki__: USA:ssa ja Intiassa miljoonat ihmiset ovat kyselyissä esittäneet mielipiteensä. Tästä syystä meidän on jatkettava painostusta ja annettava tukemme verkkoneutraliteetille.  Kun saamme äänemme kuuluville, voimme vakuuttaa sääntelyviranomaiset vapaan ja avoimen internetin merkityksestä.
+### __Nyt on ratkaiseva hetki__: USA:ssa ja Intiassa miljoonat ihmiset ovat kyselyissä esittäneet mielipiteensä. Tästä syystä meidän on jatkettava painostusta ja annettava tukemme verkkoneutraliteetille. Kun saamme äänemme kuuluville, voimme vakuuttaa sääntelyviranomaiset vapaan ja avoimen internetin merkityksestä.
 
 Sääntelyviranomaiset tarvitsevat oikeat työkalut voidakseen varmistaa verkkoneutraliteetin. Kansalaisoikeus- ja kuluttajasuojajärjestöt kampanjan takana uskovat, että BEREC voidaan saada vain väestön argumenteilla noudattamaan verkkoneutraliteettia. Tästä syystä voit tällä sivulla helposti ja nopeasti antaa arvokkaan panoksen BEREC konsultointiin.
 
 {{ END HOME BEREC-4 }}
-
-{{ BEGIN HOME BEREC-5 }}
-## Sano BEREC [mielipiteesi](#send-a-message){: data-scroll="true"}!
-{{ END HOME BEREC-5 }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Kontakti

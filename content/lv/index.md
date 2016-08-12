@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [NOSŪTI ZIŅU](#send-a-message){: data-scroll="true" }
 - [INFORMĀCIJA](#info){: data-scroll="true" }
 - [Biežāk uzdotie jautājumi](faq)
 
@@ -11,16 +24,14 @@
 
 {: .title-subtext}
 Šovasar Eiropā tiks izšķirta interneta nākotne. Lieli telekomunikāciju koncerni grib izlemt par to, ko mums tiešsaistē darīt un ko nē.
-<br><br>
-Palīdzi, kļūsti aktīvs!
 
 {{ BEGIN COUNTER }}
 
-| X | cilvēki ir <br> ziņu <br> nosūtījuši | Y | dienas tev ir <br> vēl laiks |
+| X | cilvēki ir <br> ziņu <br> nosūtījuši |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[TAGAD IR JĀRĪKOJAS](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -60,24 +71,9 @@ Izskatās pēc bezmaksas piedāvājuma, tomēr patiesībā tu zaudē savu izvēl
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Brīvais internets ir apdraudēts!
-
-Tavs viedoklis ir svarīgs! Palīdzi saglabāt interneta brīvību Eiropā, piedaloties šajās sarunās par jaunajiem tīkla neitralitātes noteikumiem. Katrs komentārs ir svarīgs un maksā tev vien 2 minūtes tava laika, lai tiktu sadzirdēta tava balss. Atbildi uz šiem nedaudzajiem jautājumiem un līdz ar to nosūti oficiālu komentāru Eiropas Elektronisko sakaru regulatoru apvienībai jeb BEREC.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Paplašinātā aptauja](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Izsakies Feisbukā](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Izsakies Feisbukā](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/lv/)
 
 [Izsakies Tviterī](https://twitter.com/intent/tweet?text=What%0Aif%0Athey%0Amade%0AEurope%27s%0Ainternet%0Aso%0Aslow%2C%0Aevery%0Atweet%0Aloaded%0Aslowly%0Alike%0Athis%3F%0ADon%27t%20let%20them%3A%0Ahttps%3A%2F%2Fwww.savetheinternet.eu%2F)
 
@@ -93,7 +89,7 @@ __[Paplašinātā aptauja](https://consultation.savetheinternet.eu/advanced/){: 
 {{ ANCHOR INFO }}
 ## Kas līdz šim ir noticis…
 
-2015\. g. oktobrī ES [likumu](http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015R2120){: target="_blank" } par tīkla neitralitāti  [pieņēma](https://netzpolitik.org/2016/netzneutralitaet-wie-es-jetzt-weiter-geht/){: target="_blank" }. Diemžēl likums ir neviennozīmīgs un to var interpretēt daudz un dažādos veidos. Vai mēs tādējādi varam garantēt tīkla neitralitātes principu ievērošanu, tas tikai tagad izšķirsies. Diemžēl atsevišķas likuma daļas var nelietīgi izmantot, lai grautu tīkla neitralitāti un veiktu internetā diskriminējošas darbības. Likums nosaka, ka atklātie jautājumi tekstā jāļauj skaidrot telekomunikācijas regulējošajām iestādēm.
+2015\. g. oktobrī ES [likumu](http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015R2120){: target="_blank" } par tīkla neitralitāti [pieņēma](https://netzpolitik.org/2016/netzneutralitaet-wie-es-jetzt-weiter-geht/){: target="_blank" }. Diemžēl likums ir neviennozīmīgs un to var interpretēt daudz un dažādos veidos. Vai mēs tādējādi varam garantēt tīkla neitralitātes principu ievērošanu, tas tikai tagad izšķirsies. Diemžēl atsevišķas likuma daļas var nelietīgi izmantot, lai grautu tīkla neitralitāti un veiktu internetā diskriminējošas darbības. Likums nosaka, ka atklātie jautājumi tekstā jāļauj skaidrot telekomunikācijas regulējošajām iestādēm.
 {{ END HOME INFO }}
 
 
@@ -107,20 +103,16 @@ Eiropas Elektronisko sakaru regulatoru apvienībai jeb BEREC līdz 2016. g. augu
 
 {{ BEGIN HOME BEREC-3 }}
 ## ES tīkla neitralitātes realizēšanas plāns
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
 
 ### __Tagad ir izšķirošs moments__: ASV un Indijā miljoniem cilvēku sarunās ir izteikuši viedokli. Tādēļ mums jāturpina izdarīt spiedienu un jācīnās par tīkla neitralitāti. Ja mūsu viedoklis sasniegs dzirdīgas ausis, tad varēsim pārliecināt regulatorus par brīva un atvērta interneta nozīmi.
 
-Regulatoriem ir nepieciešami pareizie instrumenti, lai varētu nodrošināt tīkla neitralitāti. Pilsoņu tiesību un patērētāju tiesību aizsardzības organizācijas, kas iesaistījušās šajā kampaņā, domā, ka  BEREC apvienība var rosināt ievērot tīkla neitralitātes noteikumus vienīgi ar pilsoņu argumentiem. Tādēļ tu vari dot BEREC apvienībai vērtīgu padomu.
+Regulatoriem ir nepieciešami pareizie instrumenti, lai varētu nodrošināt tīkla neitralitāti. Pilsoņu tiesību un patērētāju tiesību aizsardzības organizācijas, kas iesaistījušās šajā kampaņā, domā, ka BEREC apvienība var rosināt ievērot tīkla neitralitātes noteikumus vienīgi ar pilsoņu argumentiem. Tādēļ tu vari dot BEREC apvienībai vērtīgu padomu.
 
 {{ END HOME BEREC-4 }}
-
-{{ BEGIN HOME BEREC-5 }}
-## Saki BEREC apvienībai [savu viedokli](#send-a-message){: data-scroll="true"}!
-{{ END HOME BEREC-5 }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Kontakti

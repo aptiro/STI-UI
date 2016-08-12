@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Mais de 500,000 pessoas enviaram um mensagem forte: *Queremos uma Internet livre e aberta!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Manter a Internet livre e aberta é, sem dúvida, importante: no final da consulta pública sobre as directrizes para a implementação das [regras europeias de neutralidade da rede](https://edri.org/time-to-save-the-internet/), foram enviadas mais de meio milhão de mensagens seguindo a nossa campanha!
+ 
+Enviamos os vossos comentários para o Organismo de Reguladores Europeus das Comunicações Electrónicas (BEREC).O BEREC vai agora [finalizar as directrizes](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) e publicará a sua versão final a 30 de Agosto de 2016.
+ 
+O apoio à defesa de uma Internet livre e aberta é tão grande que o BEREC não o pode ignorar. A mensagem é clara: Esperamos que corrija as deficiências nas disposições relacionadas com o ["zero rating"](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), os [serviços especializados](https://edri.org/specialised-services-make-break-issue-open-internet/) e a [gestão de tráfego](https://edri.org/traffic-management-where-risks-online-discrimination/) nas directrizes finais. Juntos, mostramos aos reguladores que o público europeu não vai deixar o futuro do seu espaço público digital nas mãos de lobistas corporativos, mas quer decidir por si mesmo. 
+
+**A SaveTheInternet.eu quer agradecer a todos quantos participaram neste esforço notável para proteger a Internet livre e aberta! Mostrar aos reguladores que queremos ser nós a decidir - e não deixar que sejam as empresas a fazê-lo - como será o futuro do nosso espaço público digital! Obrigado!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [ENVIA UMA MENSAGEM](#send-a-message){: data-scroll="true" }
 - [INFORMAÇÃO](#info){: data-scroll="true" }
 - [PERGUNTAS FREQUENTES](faq)
 
@@ -11,16 +24,14 @@
 
 {: .title-subtext}
 Os Reguladores Europeus estão prestes a decidir dar às grandes empresas de telecomunicações o poder de influenciar o que podes (e não podes) fazer online. A Europa precisa urgentemente de directrizes claras de neutralidade da rede para proteger as nossas liberdades e direitos online.
-<br><br>
-Mobiliza-te, actua Já!
 
 {{ BEGIN COUNTER }}
 
-| X | PESSOAS <br> ENVIARAM MENSAGENS | Y | DIAS <br> RESTANTES |
+| X | PESSOAS <br> ENVIARAM MENSAGENS |
+
+comentários enviados através de savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) e [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[ACTUA](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -60,24 +71,9 @@ Ainda que pareça que te estão a dar algo gratuitamente, o teu operador móvel 
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Diz aos reguladores nacionais e ao BEREC para protegerem a neutralidade da rede
-
-Dá a tua opinião sobre a nova lei de neutralidade da rede aos reguladores usando o questionário em baixo. Ao responderes às questões será gerado um e-mail para ti. O e-mail será submetido por nós à consulta oficial dos Reguladores de Telecomunicações da UE (BEREC) quando esta começar em Junho de 2016.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Partilha no Facebook](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Partilha no Facebook](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/pt/)
 
 [Partilha no Twitter](https://twitter.com/intent/tweet?text=Help%20save%20the%20internet.%20Tell%20your%20regulator%20to%20safeguard%20net%20neutrality.%20http%3A%2F%2Fwww.savetheinternet.eu%2F%20%23SaveTheInternet)
 
@@ -102,12 +98,12 @@ O Organismo de Reguladores Europeus das Comunicações Eletrónicas (BEREC, Body
 {{ END HOME BEREC-1 }}
 
 {{ BEGIN HOME BEREC-2 }}
-Em junho de 2016, o BEREC publicará o rascunho das suas directrizes e lançará uma consulta pública. Não obstante, e de acordo com o estabelecido pelos procedimentos do BEREC, o público tem apenas de __6 de Junho a 18 de Julho__ para responder e o BEREC tem de publicar as suas directrizes finais a 30 de Agosto de 2016. Isso significa que os cidadãos têm __poucas semanas__ para responder à consulta e o BEREC tem __pouco mais de um mês__ para processar os (potencialmente) milhares de comentários, actualizar as suas directrizes e depois passar pelo  processo administrativo para aceitar formalmente qualquer alteração ao rascunho inicial.
+Em junho de 2016, o BEREC publicará o rascunho das suas directrizes e lançará uma consulta pública. Não obstante, e de acordo com o estabelecido pelos procedimentos do BEREC, o público tem apenas de __6 de Junho a 18 de Julho__ para responder e o BEREC tem de publicar as suas directrizes finais a 30 de Agosto de 2016. Isso significa que os cidadãos têm __poucas semanas__ para responder à consulta e o BEREC tem __pouco mais de um mês__ para processar os (potencialmente) milhares de comentários, actualizar as suas directrizes e depois passar pelo processo administrativo para aceitar formalmente qualquer alteração ao rascunho inicial.
 {{ END HOME BEREC-2 }}
 
 {{ BEGIN HOME BEREC-3 }}
 ## Guia para a Neutralidade da Rede na UE
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
@@ -117,9 +113,14 @@ Os reguladores devem prover-se das melhores ferramentas para impor a neutralidad
 
 {{ END HOME BEREC-4 }}
 
-{{ BEGIN HOME BEREC-5 }}
-## O BEREC [precisa da tua opinião](#send-a-message){: data-scroll="true"} antes de decidir o futuro da neutralidade da rede na Europa.
-{{ END HOME BEREC-5 }}
+{{ BEGIN HOME COALITION }}
+### Juntos defendemos regras firmes de Neutralidade da Rede.
+
+Estes criadores e investidores assinaram a [carta dos empreendedores pela neutralidade da rede](http://www.factory.co/net-neutrality) na Europa, pedindo ao BEREC directrizes firmes, claras e sem lacunas.
+
+<script type="text/javascript" id="fftf_logo_cloud" integrity="sha384-rY9HgqO1qTdzfKDplrb4HEG65jVrF8JT8iG4Gv7wAjynddlhdn64sKxjO71/oqmH" crossorigin="anonymous" src="https://www.savenetneutrality.eu/js/logos.js"></script>
+
+{{ END HOME COALITION }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Contacta-nos

@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [POSLAT ZPRÁVU](#send-a-message){: data-scroll="true" }
 - [INFORMACE](#info){: data-scroll="true" }
 - [FAQ](faq)
 {{ END NAVIGATION }}
@@ -10,16 +23,14 @@
 
 {: .title-subtext}
 Evropské regulační úřady se chystají rozhodnout, zda dát velkým telekomunikačním korporacím moc ovlivňovat, co můžeme (a nemůžeme) dělat online. Evropa naléhavě potřebuje jasná pravidla síťové neutrality, aby mohla chránit online svobody a práva.
-<br><br>
-Přidejte se k nám a jednejte! Okamžitě!
 
 {{ BEGIN COUNTER }}
 
-| X | LIDÉ JIŽ ODESLALI <br> ZPRÁV | Y | DNŮ <br> ZBÝVÁ |
+| X | LIDÉ JIŽ ODESLALI <br> ZPRÁV |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[TAKE ACTION](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -59,24 +70,9 @@ Může to znít, jako kdybyste dostávali něco zadarmo, ale ve skutečnosti se 
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Žádejte národní regulační úřady a Evropský telekomunikační úřad (BEREC), aby chránily síťovou neutralitu
-
-Sdělte regulačním úřadům svůj názor na nejnovější pravidla vztahující se na síťovou neutralitu tím, že použijete níže uvedený dotazníkový nástroj. Po zadání odpovědí na otázky, kde lze vybírat ze dvou možných odpovědí, a na otevřené otázky, kde můžete zadat libovolný text odpovědi, pro vás bude vygenerována e-mailová zpráva. E-mail předáme Evropskému telekomunikačnímu úřadu (BEREC) při zahájení oficiálních jednání v červnu 2016.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Sdílet na Facebooku](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Sdílet na Facebooku](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/cs/)
 
 [Sdílet na Twitteru](https://twitter.com/intent/tweet?text=What%0Aif%0Athey%0Amade%0AEurope%27s%0Ainternet%0Aso%0Aslow%2C%0Aevery%0Atweet%0Aloaded%0Aslowly%0Alike%0Athis%3F%0ADon%27t%20let%20them%3A%0Ahttps%3A%2F%2Fwww.savetheinternet.eu%2F)
 
@@ -106,7 +102,7 @@ Na červen 2016 naplánoval Evropský regulační úřad zveřejnění návrhu p
 
 {{ BEGIN HOME BEREC-3 }}
 ## Plán pro síťovou neutralitu EU
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
@@ -115,10 +111,6 @@ Na červen 2016 naplánoval Evropský regulační úřad zveřejnění návrhu p
 Regulační úřady se musí vyzbrojit nástroji, které jim umožní prosazovat síťovou neutralitu. Jako aktivisté kampaně Save The Internet se domníváme, že Evropský telekomunikační úřad (BEREC) nebude mít dostatek času na zpracování a řádné zvážení potenciálně desítek tisíc reakcí (americký telekomunikační úřad během veřejného projednání obdržel 3,7 miliónů podnětů!). Rovnováhy můžeme opět dosáhnout tím, že umožníme každému řádně a efektivněji přispět k prováděcím pokynům.
 
 {{ END HOME BEREC-4 }}
-
-{{ BEGIN HOME BEREC-5 }}
-## Evropský telekomunikační úřad (BEREC) [potřebuje vaše podněty](#pošlete zprávu){: data-scroll="true"} ještě předtím, než bude rozhodnuto o budoucnosti síťové neutrality v Evropě.
-{{ END HOME BEREC-5 }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Kontaktujte nás
@@ -135,7 +127,7 @@ We store your comments to the BEREC consultation in the inbox of an e-mail addre
 
 We collect non-personal information on this website with [Piwik](https://piwik.org/), a privacy friendly web analytics software.
 
-If you [subscribe to the newsletter](#subscribe-to-newsletter){: data-scroll="true"} your email address will be stored in a mailing list and database which is administrated and hosted by European Digital Rights. They are the only organisation which has the right to send you messages if you sign up to the newsletter. You can unsubscribe from that newsletter at any time and will receive no further messages. 
+If you [subscribe to the newsletter](#subscribe-to-newsletter){: data-scroll="true"} your email address will be stored in a mailing list and database which is administrated and hosted by European Digital Rights. They are the only organisation which has the right to send you messages if you sign up to the newsletter. You can unsubscribe from that newsletter at any time and will receive no further messages.
 {{ END HOME CONTACT-US }}
 
 {{ BEGIN HOME SUPPORTED-BY }}

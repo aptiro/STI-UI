@@ -1,7 +1,20 @@
+{{ BEGIN MODAL }}
+### Over 500,000 people sent a strong message: *We want a free and open internet!*
+{{ BEGIN MODAL-SPLIT }}
+![Final number](/images/final-number.png)
+
+Keeping the internet free and open undoubtedly matters: by the end of the public consultation on the guidelines for the implementation of the [European net neutrality rules](https://edri.org/time-to-save-the-internet/), over half a million comments were sent following our campaign!
+ 
+We sent your comments to the Body of European Regulators of Electronic Communications (BEREC). BEREC will now [finalise the guidelines](https://edri.org/net-neutrality-european-parliament-decided-not-to-decide/) and publish their final version on 30 August 2016.
+ 
+The support for a free and open internet is so huge that BEREC cannot ignore it. The message is clear: This will hopefully fix the weaknesses in the provisions on [zero rating](https://edri.org/zero-rating-why-dangerous-for-our-rights-freedoms), [specialised services](https://edri.org/specialised-services-make-break-issue-open-internet/) , and [traffic management](https://edri.org/traffic-management-where-risks-online-discrimination/) in the final guidelines. Together, we've shown the regulators that the European public will not leave the future of its digital public space to corporate lobbyists, but wants to decide for itself. 
+
+**SaveTheInternet.eu wants to thank everyone who participated in this outstanding effort to protect the free, open internet!  show the regulators that we want to decide ourselves – and not let companies do it – how our digital public space will look like in the future! Thank you!**
+{{ END MODAL }}
+
 {{ BEGIN HOME INTRO }}
 {{ BEGIN NAVIGATION }}
 {: .navigation__sections}
-- [Pošlji sporočilo](#send-a-message){: data-scroll="true" }
 - [Informacije](#info){: data-scroll="true" }
 - [Pogosta vprašanja](faq)
 {{ END NAVIGATION }}
@@ -10,16 +23,14 @@
 
 {: .title-subtext}
 Evropski regulatorj se odločajo, ali dati velikim telekomunikacijskim družbam moč vpliva na to kar lahko (in ne moremo) opraviti na spletu. Evropa nujno potrebuje jasne smernice nevtralnosti za zaščito naših svoboščin in pravic na spletu.
-<br><br>
-Pridružite se gibanju, ukrepajmo zdaj!
 
 {{ BEGIN COUNTER }}
 
-| X | LJUDJE SO <br> POSLALI SPOROČILA | Y | DNI <br> PREOSTALIH ] |
+| X | LJUDJE SO <br> POSLALI SPOROČILA |
+
+comments sent via savetheinternet.eu, [Avaaz](https://secure.avaaz.org/en/save_the_internet_eu_loc_2016/), [savenetneutrality.eu](https://actionnetwork.org/petitions/save-eu-net-neutrality), [OpenMedia](https://act.openmedia.org/TollBooth/) and [Access Now](https://act.accessnow.org/ea-action/action?ea.client.id=1921&ea.campaign.id=51950)
 
 {{ END COUNTER }}
-
-[UKREPAJ ZDAJ](#send-a-message){: id="take-action-button" data-scroll="true" }
 
 {{ END HOME INTRO }}
 
@@ -59,24 +70,9 @@ Sliši se, kot da bi dobili nekaj zastonj, je pa zato vaš mobilni operater post
 
 {{ END HOME FIX-NET-NEUTRALITY }}
 
-
-{{ BEGIN HOME QUESTIONNAIRE }}
-{{ ANCHOR SEND-A-MESSAGE }}
-
-# Povejte svojim nacionalnim regulatorjem in BEREC naj ščitijo internetno nevtralnost
-
-Povejte svojim regulatorjem svoje mnenje o novih pravilih o nevtralnosti tako, da izpolnite spodnji vprašalnik. Z odgovori na poljubno število vprašanj v testu in odprtih vprašanj po e-mailu, ki bo za vas generiran. Vaš e-mail bo za nas predložen s strani regulatorjev EU za telekomunikacije (BEREC), ko se uradno posvetovanje začne v juniju 2016.
-
-{{ BEGIN QUESTIONNAIRE-IFRAME }}
-{{ END QUESTIONNAIRE-IFRAME }}
-
-__[Advanced Questionnaire](https://consultation.savetheinternet.eu/advanced/){: target="_blank"}__
-
-{{ END HOME QUESTIONNAIRE }}
-
 {{ BEGIN HOME SPREAD-THE-WORD }}
 
-[Delite na Facebooku](http://www.facebook.com/sharer/sharer.php?s=100&p%5Burl%5D=http://www.savetheinternet.eu/&p%5Bimages%5D%5B0%5D=http://www.savetheinternet.eu/img/thumbnail.png&p%5Btitle%5D=Help%20Save%20the%20Internet&p%5Bsummary%5D=Your%20freedom%20online%20is%20threatened%20by%20EU%20proposals.%20The%20fight%20for%20an%20open%20Internet%20is%20happening%20right%20now%20in%20Brussels.)
+[Delite na Facebooku](http://www.facebook.com/sharer.php?u=https://savetheinternet.eu/sl/)
 
 [Delite na Twitterju](https://twitter.com/intent/tweet?text=Help%20save%20the%20internet.%20Tell%20your%20regulator%20to%20safeguard%20net%20neutrality.%20http%3A%2F%2Fwww.savetheinternet.eu%2F%20%23SaveTheInternet)
 
@@ -106,7 +102,7 @@ V juniju 2016, BEREC načrtuje objavo svojih osnutkov smernic in sproža javno p
 
 {{ BEGIN HOME BEREC-3 }}
 ## Internetna Nevtralnost načrt EU
-{{ IMG ROADMAP }}
+![Roadmap](./images/net_neutrality_roadmap.svg)
 {{ END HOME BEREC-3 }}
 
 {{ BEGIN HOME BEREC-4 }}
@@ -115,10 +111,6 @@ V juniju 2016, BEREC načrtuje objavo svojih osnutkov smernic in sproža javno p
 Regulatorji se morajo sami opremiti z orodji za uveljavljanje nevtralnosti. V Save The Internet, mislimo, da BEREC ne bo imel dovolj časa za obdelavo in ustrezno upoštevanje potencialno tisoč odgovorov (ameriški telekomunikacijski regulator je prejel 3,7 milijonov odzivov na posvetovanju!). Mi lahko ponovno vzpostavimo ravnotežje, ki omogoča vsem, da se ustrezno prispeva k smernicam na bolj učinkovit način.
 
 {{ END HOME BEREC-4 }}
-
-{{ BEGIN HOME BEREC-5 }}
-## BEREC [potrebuje vaš prispevek](# pošlji sporočilo){: data-scroll="true"} preden se odloči o prihodnosti nevtralnosti omrežja v Evropi.
-{{ END HOME BEREC-5 }}
 
 {{ BEGIN HOME CONTACT-US }}
 ### Kontakt
@@ -135,7 +127,7 @@ We store your comments to the BEREC consultation in the inbox of an e-mail addre
 
 We collect non-personal information on this website with [Piwik](https://piwik.org/), a privacy friendly web analytics software.
 
-If you [subscribe to the newsletter](#subscribe-to-newsletter){: data-scroll="true"} your email address will be stored in a mailing list and database which is administrated and hosted by European Digital Rights. They are the only organisation which has the right to send you messages if you sign up to the newsletter. You can unsubscribe from that newsletter at any time and will receive no further messages.  
+If you [subscribe to the newsletter](#subscribe-to-newsletter){: data-scroll="true"} your email address will be stored in a mailing list and database which is administrated and hosted by European Digital Rights. They are the only organisation which has the right to send you messages if you sign up to the newsletter. You can unsubscribe from that newsletter at any time and will receive no further messages.
 {{ END HOME CONTACT-US }}
 
 {{ BEGIN HOME SUPPORTED-BY }}

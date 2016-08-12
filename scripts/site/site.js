@@ -17,12 +17,18 @@ var isMobile = {
   }
 };
 
+// close modal
+
+function closeModal() {
+  $('#modal').removeClass('active');
+}
+
 // counter related globals
 
 function daysUntil(deadline) {
   var today = new Date();
   var millisecondsUntil = deadline.getTime() - today.getTime();
-  return Math.floor(((((millisecondsUntil / 1000) / 60) / 60) / 24));
+  return Math.ceil(((((millisecondsUntil / 1000) / 60) / 60) / 24));
 }
 
 // initialize language selection, redirect to site on select
@@ -101,23 +107,25 @@ $(function clickToActivate() {
 
 function registerAndSetupCounter() {
 
-  var deadline = new Date('2016-07-18T13:00Z');
-
-  var count_fftf = 5720;
-  var count_acs = 1100;
-
-  var addCount = count_fftf + count_acs;
+  var deadline = new Date('2016-07-18T12:00Z');
 
   var $counter      = $('.counter').find('table').first();
   var $sentMessages = $counter.find('tr:nth-child(1)').find('td:nth-child(1)');
   var $daysLeft     = $counter.find('tr:nth-child(1)').find('td:nth-child(3)');
 
-  $.get('https://savetheinternet.eu/counter/count.json', function(counter) {
-    $sentMessages.html((counter.count + addCount).toLocaleString());
+  $.get('/counter/count.json', function(counter) {
+    $sentMessages.html(counter.count.toLocaleString());
     $daysLeft.html(daysUntil(deadline));
+    
+    $('#counter-sti').html(counter.sti.toLocaleString());
+    $('#counter-avaaz').html(counter.avaaz.toLocaleString());
+    $('#counter-snn').html(counter.snn.toLocaleString());
+    $('#counter-om').html(counter.om.toLocaleString());
+    $('#counter-access').html(counter.access.toLocaleString());
+    
     $counter.css('visibility', 'visible').hide().fadeIn('slow');
   }).fail(function() {
-    console.log('Error: "https://savetheinternet.eu/counter/count.json" could not be loaded');
+    console.log('Error: "/counter/count.json" could not be loaded');
     $sentMessages.html(300);
     $daysLeft.html(daysUntil(deadline));
     $counter.css('visibility', 'visible').hide().fadeIn('slow');
@@ -147,6 +155,9 @@ $(document).ready(function() {
 
   // language selection
   initLanguageSelection();
+  
+  // trigger counter
+  $('#modal').addClass('active');
 
   // video
 

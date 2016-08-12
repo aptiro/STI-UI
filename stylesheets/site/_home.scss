@@ -43,7 +43,7 @@
   position: relative;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  
+
   table {
     margin-left: auto;
     margin-right: auto;
@@ -66,19 +66,47 @@
     }
   }
   
-  p:last-of-type {
-    @include cf;
-    width: 100%;
+  #count-tooltip {
+    z-index: 10;
+    position: absolute;
+    opacity: 0;
+    padding: 0.5rem;
+    bottom: 100%;
+    left: 0;
+    text-align: left;
+    font-size: 0.7rem;
+    background-color: #3CA8C4;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+  }
+
+  #count-tooltip span {
+    font-weight: bold;
+  }
+  
+  table:hover + p + #count-tooltip,
+  p:hover + #count-tooltip {
+    opacity: 0.9;
+  }
+  
+  table:hover,
+  p:hover {
+    cursor: help;
+  }
+  
+  p {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0.5rem;
     margin-bottom: 0px;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    line-height: 1;
+    
     a {
-      margin-top: 0px !important;
-      margin-bottom: 0px !important;
-      margin-left: 0px !important;
-      margin-right: 0px !important;
+      color: inherit;
     }
   }
 }
@@ -99,6 +127,7 @@
   border-radius: 8px;
   max-width: 400px;
   text-decoration: none;
+  transition: .3s ease-in-out;
   @include susy-breakpoint($mobile, $tablet-small) {
     width: span(22 of 24);
   }
@@ -196,17 +225,6 @@
   @include fix-net-neutrality-column("specialised-services");
   @include fix-net-neutrality-column("traffic-management");
   @include fix-net-neutrality-column("zero-rating");
-
-  &::after {
-    @include cf;
-    content:'';
-    margin: 0 auto;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 80px 20px 80px;
-    border-color: transparent transparent $sti-blue-new transparent;
-  }
 }
 
 #questionnaire-loading-spinner {
@@ -524,6 +542,18 @@
       color: $sti-red-new;
     }
   }
+}
+
+.home__coalition__outer {
+
+}
+.home__coalition__inner {
+  @include container;
+
+}
+.home__coalition__content {
+  @include span(24);
+  color: $sti-blue-light-new;
 }
 
 .home__contact-us__outer {

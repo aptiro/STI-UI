@@ -49,6 +49,7 @@ def locales_init
     locale_raw = YAML.load_file(config_path)
     new_locale = Language.new locale_raw["language"], locale_raw["language_name"], locale_raw["questionnaire_language"], locale_raw["backend"]
   end
+  Language.locales.sort! {|x, y| x.language <=> y.language}
 end
 
 def walk(path, &process_file)
@@ -104,6 +105,21 @@ def transform(site_config, locale, html)
            'home__traffic-management',
            'home__zero-rating'
         html.sub! block_pattern, "<div class=\"#{id_part}\">"
+      when 'modal'
+        tail = "\n{::nomarkdown}\n"
+        tail << "<section class=\"modal--fade\" id=\"modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modal-label\" aria-hidden=\"true\">"
+        tail << "<div class=\"modal-inner\">"
+        tail << "<header id=\"modal-label\">"
+        tail << "\n{:/}\n"
+
+        html.sub! block_pattern, tail
+      when 'modal-split'
+        tail = "\n{::nomarkdown}\n"
+        tail << "</header>"
+        tail << "<div class=\"modal-content\">"
+        tail << "\n{:/}\n"
+
+        html.sub! block_pattern, tail
       when 'home__video', 'home__newsletter'
         html.sub! block_pattern, "
           <div class=\"#{id_part}__outer\">
@@ -122,19 +138,37 @@ def transform(site_config, locale, html)
       when 'questionnaire-iframe'
         html.sub! block_pattern, ''
       when 'navigation'
-        navigation_tail = "\n{::nomarkdown}\n<select name=\"locale\" id=\"locale\" autocomplete=\"off\">"
+        tail = "\n{::nomarkdown}\n<select name=\"locale\" id=\"locale\" autocomplete=\"off\">"
         Language.locales.each do |lang|
           if lang == locale
-            navigation_tail << "<option value=\"#{lang.language}\" selected=\"selected\">#{lang.language_name}</option>"
+            tail << "<option value=\"#{lang.language}\" selected=\"selected\">#{lang.language_name}</option>"
           else
-            navigation_tail << "<option value=\"#{lang.language}\">#{lang.language_name}</option>"
+            tail << "<option value=\"#{lang.language}\">#{lang.language_name}</option>"
           end
         end
-        navigation_tail << "</select></div>\n{:/}\n"
+        tail << "</select></div>\n{:/}\n"
 
-        html.sub! block_pattern, navigation_tail
-      when 'counter',
-           'home__specialised-services',
+        html.sub! block_pattern, tail
+      when 'counter'
+        tail = "\n{::nomarkdown}\n<div id=\"count-tooltip\">"
+        tail << "savetheinternet.eu: <span id=\"counter-sti\"></span><br />"
+        tail << "Avaaz: <span id=\"counter-avaaz\"></span><br />"
+        tail << "savenetneutrality.eu: <span id=\"counter-snn\"></span><br />"
+        tail << "OpenMedia: <span id=\"counter-om\"></span><br />"
+        tail << "Access Now: <span id=\"counter-access\"></span><br />"
+        tail << "</div></div>\n{:/}\n"
+
+        html.sub! block_pattern, tail
+      when 'modal'
+        tail = "\n{::nomarkdown}\n"
+        tail << "</div>"
+        tail << "</div>"
+        tail << "<a href=\"javascript:closeModal()\" class=\"modal-close\" data-close=\"Close\" data-dismiss=\"modal\">?</a>"
+        tail << "</section>"
+        tail << "\n{:/}\n"
+
+        html.sub! block_pattern, tail
+      when 'home__specialised-services',
            'home__traffic-management',
            'home__zero-rating'
         html.sub! block_pattern, '</div>'
@@ -147,11 +181,6 @@ def transform(site_config, locale, html)
       end
     when 'ANCHOR'
       html.sub! block_pattern, "\n{::nomarkdown}\n<span id=\"#{id_part}\"></span>\n{:/}\n"
-    when 'IMG'
-      case id_part
-      when 'roadmap'
-        html.sub! block_pattern, "\n{::nomarkdown}\n<img src=\"./images/net_neutrality_roadmap.svg\" alt=\"Roadmap\">\n{:/}\n"
-      end
     when 'LOGOS'
       case id_part
       when 'made-by'
