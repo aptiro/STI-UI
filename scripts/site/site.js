@@ -156,6 +156,9 @@ $(document).ready(function() {
   // language selection
   initLanguageSelection();
 
+  // trigger counter
+  $('#modal').addClass('active');
+
   // video
 
   $('.carousel').carousel({
