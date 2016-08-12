@@ -113,7 +113,7 @@ function registerAndSetupCounter() {
   var $sentMessages = $counter.find('tr:nth-child(1)').find('td:nth-child(1)');
   var $daysLeft     = $counter.find('tr:nth-child(1)').find('td:nth-child(3)');
 
-  $.get('https://apti.ro/sites/default/files/count.json', function(counter) {
+  $.get('https://neutralitate.apti.ro/scripts/count.json', function(counter) {
     $sentMessages.html(counter.count.toLocaleString());
     $daysLeft.html(daysUntil(deadline));
 
@@ -125,7 +125,7 @@ function registerAndSetupCounter() {
 
     $counter.css('visibility', 'visible').hide().fadeIn('slow');
   }).fail(function() {
-    console.log('Error: "https://apti.ro/sites/default/files/count.json" could not be loaded');
+    console.log('Error: "https://neutralitate.apti.ro/scripts/count.json" could not be loaded');
     $sentMessages.html(300);
     $daysLeft.html(daysUntil(deadline));
     $counter.css('visibility', 'visible').hide().fadeIn('slow');
