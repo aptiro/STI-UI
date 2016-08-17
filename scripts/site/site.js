@@ -113,7 +113,7 @@ function registerAndSetupCounter() {
   var $sentMessages = $counter.find('tr:nth-child(1)').find('td:nth-child(1)');
   var $daysLeft     = $counter.find('tr:nth-child(1)').find('td:nth-child(3)');
 
-  $.get('https://neutralitate.apti.ro/scripts/count.json', function(counter) {
+  $.get('/scripts/count.json', function(counter) {
     $sentMessages.html(counter.count.toLocaleString());
     $daysLeft.html(daysUntil(deadline));
 

@@ -22,6 +22,9 @@ build() {
 
   log "building markup..."
   ./build_html.rb
+
+  log "copying count.json..."
+  cp scripts/count.json build/site/scripts/count.json
 }
 
 deploy() {
